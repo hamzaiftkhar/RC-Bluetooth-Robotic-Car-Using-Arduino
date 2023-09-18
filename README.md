@@ -1,5 +1,36 @@
 # RC-Bluetooth-Robotic-Car-Using-Arduino
 
-## DETAILS:
+### Project Overview
 
-The main purpose of this project is to create a remote interface to control Car with wireless technology. Bluetooth-powered robotic car is a relatively inexpensive, easy-to-use, and efficient way to go. The aim of the project is to design an Arduino system and write a program on Arduino Microprocessor. The Arduino car contains an Arduino microcontroller with basic navigation features. The program will be complied through Arduino IDE to the Arduino microprocessor & loaded into it after proper checking of logic to minimize any hardware loss / damage. We will use an android application that will provide user an interface to interact with the Arduino powered car. The interface will be easy to use and will control Arduino microprocessor via the Bluetooth after giving instruction to Arduino for various actions through interface through the Bluetooth module Here only needs to touch button in android phone to control the car in forward, backward, left and right directions. So here android phone is used as transmitting device and Bluetooth module placed in car is used as receiver. Android phone will transmit command using its in-built Bluetooth to car so that it can move in the required direction like moving forward, reverse, turning left, turning right and stop.
+- The project aims to create a remote control interface for a robotic car using Bluetooth technology.
+- BluetoothBot is a cost-effective, user-friendly, and efficient solution for remote control.
+- It utilizes Arduino microcontroller technology to enable basic navigation features.
+
+### Implementation Steps
+
+1. **Arduino Programming**
+   - Design and write a program using the Arduino IDE.
+   - Carefully validate the logic to minimize hardware loss or damage.
+   - Upload the validated program to the Arduino microcontroller.
+
+2. **Hardware Setup**
+   - Connect the necessary components, including motors, wheels, and power supply, to assemble the RC Rover.
+
+3. **Android Application**
+   - Utilize an Android application to serve as the user interface for controlling the Arduino-powered car.
+   - The application offers intuitive and easy-to-use controls.
+
+4. **Bluetooth Communication**
+   - Establish Bluetooth communication between the Android device and the Arduino-powered car.
+   - The Android phone transmits commands via its built-in Bluetooth module to control the car's movements.
+
+### Control Options
+
+- Users can control the car with simple button taps on their Android phones.
+- Commands transmitted via Bluetooth allow the car to move forward, backward, turn left, turn right, and stop.
+
+### Project Benefits
+
+- Affordable and accessible solution for remote control of a robotic car.
+- Ideal for hobbyists, enthusiasts, and educational purposes.
+- Combines the power of Arduino technology with wireless Bluetooth control.
